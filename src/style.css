@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Lexend Deca', sans-serif;
+  
+}
+.container{
+  text-align: center;
+  width: 50vw;
+  max-width: 1170px;
+  height: 60vh;
+  margin: 5rem auto;
+  padding: 0;
+  box-shadow: 20px;
+}
+/* -----For Desktop ------  */
+.card-container{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius:2%;
+  background-color: rgb(247, 242, 242);
+}
+/*-------------------------*/
+.first-section{
+  padding: 0;
+  display: grid;
+  gap: 4rem;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
+.first-section .card-title{
+  width: 40%;
+  position: relative;
+}
+.first-section .card-title .title{
+  text-align:center;
+  font-size:30px;
+  font-weight:600;
+  letter-spacing:0.5px;
+  color:blue;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.first-section .logo{
+  display: block;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*------------------------*/
+.second-section{
+  padding:5px;
+  display: grid;
+  gap: 3rem;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
+.second-section .stundent-picture{
+  display: block;
+  margin-left: 10%;
+  margin-right: auto;  
+  height: 250px;
+}
+.second-section .student-details{
+  width: 50%;
+  text-align: left;
+  margin: 0px;
+  padding: 5px;
+}
+.second-section .student-details h1{
+  margin: 4px;
+}
+.second-section .student-details h2{
+  margin: 4px;
+}
+/*------------------*/
+.third-section{
+  padding: 0;
+}
+.third-section .barcode-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+}
+/*----------For mobile -----*/
+@media only screen and (max-width: 600px) {
+  .first-section,
+  .second-section,
+  .third-section{
+    width: 80%;    
+  }
+  .first-section .card-title{
+    width: 100%;
+    top: 15px;
+    position: relative;
+    height: 44px;
+    margin-bottom:-25px;
+    margin-top: -15px;
+  }
+  .first-section .card-title .title{
+    position:relative;
+    font-size:18px; 
+  }
+  .first-section .logo{
+    width:80%;
+    margin: 0px;
+    height:auto;
+    margin-left: 10%;
+    
+  }
+  .second-section .stundent-picture{
+    width: 80%; 
+    height: 200px;
+  }
+  .second-section .student-details{
+    margin-left:10%; 
+    width: 80%;
+    margin-top: -25px;
+  }
+  .student-details h1{
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    margin:1px;
+  }
+  .student-details h2{
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    margin: 1px;
+  }
+  .barcode-image{
+    margin-top:-15px; 
+  }
+}
+
