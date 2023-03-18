@@ -7,9 +7,9 @@
 }
 .container{
   text-align: center;
-  width: 53vw;
+  width: 48vw;
   max-width: 1170px;
-  height: 60vh;
+  height: 50vh;
   margin: 5rem auto;
   padding: 0;
   box-shadow: 20px;
@@ -27,20 +27,20 @@
 .first-section{
   padding: 0;
   display: grid;
-  gap: 4rem;
+  gap: 5rem;
   justify-content: space-evenly;
   justify-items: center;
   align-content: space-evenly;
   align-items: center;
 }
 .first-section .card-title{
-  width: 42%;
+  width: 43%;
   position: relative;
 }
 .first-section .card-title .title{
   text-align:center;
   font-size:30px;
-  font-weight:500;
+  font-weight:600;
   letter-spacing:0.5px;
   color:blue;
   position:absolute;
@@ -103,15 +103,14 @@
   }
   .first-section .card-title{
     width: 100%;
-    top: 15px;
     position: relative;
-    height: 44px;
-    margin-bottom:-25px;
-    margin-top: -15px;
+    height: 22px;
+    margin-bottom:-40px;
+    margin-top:15px;
   }
   .first-section .card-title .title{
     position:relative;
-    font-size:18px; 
+    font-size:20px; 
   }
   .first-section .logo{
     width:80%;
