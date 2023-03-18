@@ -34,13 +34,13 @@
   align-items: center;
 }
 .first-section .card-title{
-  width: 40%;
+  width: 42%;
   position: relative;
 }
 .first-section .card-title .title{
   text-align:center;
   font-size:30px;
-  font-weight:600;
+  font-weight:500;
   letter-spacing:0.5px;
   color:blue;
   position:absolute;
@@ -69,6 +69,8 @@
   margin-left: 10%;
   margin-right: auto;  
   height: 250px;
+  border-radius: 3%;;
+  
 }
 .second-section .student-details{
   width: 50%;
