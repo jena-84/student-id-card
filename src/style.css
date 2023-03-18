@@ -7,18 +7,21 @@
 }
 .container{
   text-align: center;
-  width: 50vw;
+  width: 53vw;
   max-width: 1170px;
   height: 60vh;
   margin: 5rem auto;
   padding: 0;
   box-shadow: 20px;
+  border: 1px solid blue;
 }
 /* -----For Desktop ------  */
 .card-container{
+  margin: 0;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius:2%;
   background-color: rgb(247, 242, 242);
+
 }
 /*-------------------------*/
 .first-section{
@@ -90,10 +93,11 @@
 }
 /*----------For mobile -----*/
 @media only screen and (max-width: 600px) {
+  
   .first-section,
   .second-section,
   .third-section{
-    width: 80%;    
+    width: 80%; 
   }
   .first-section .card-title{
     width: 100%;
